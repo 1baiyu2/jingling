@@ -1,5 +1,9 @@
 {
   "dependencies": {
-    "element-ui": "^2.15.14"
+    "axios": "^1.5.0",
+    "element-ui": "^2.15.14",
+    "style-resources-loader": "^1.5.0",
+    "vue-axios": "^3.5.2",
+    "vue-cli-plugin-style-resources-loader": "^0.1.5"
   }
 }
