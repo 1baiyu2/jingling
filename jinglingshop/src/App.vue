@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
 
     <router-view></router-view>
 
@@ -25,16 +25,19 @@ export default {
 };
 </script>
 
-<style scoped lang="less">
+<style  lang="less">
 * {
   margin: 0;
   padding: 0;
 }
 
 html,
-body {
+body,
+#app {
   width: 100%;
   height: 100%;
+  min-width: 1024px;
+
 }
 
 ul {
@@ -43,6 +46,15 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0;
 }
 </style>
 
